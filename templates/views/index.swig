@@ -2,33 +2,50 @@
 
 {% block content %}
 	<div class="container">
-		<div class="jumbotron">
-			<img src="/images/logo.svg" width="160">
-			<h1>Welcome</h1>
-			<p>This is your new <a href="http://keystonejs.com", target="_blank">KeystoneJS</a> website.</p>
-			<p>
-				It includes the latest versions of
-				<a href="http://getbootstrap.com/" target="_blank">Bootstrap</a>
-				and <a href="http://www.jquery.com/" target="_blank">jQuery</a>.
-			</p>
-			<p>Visit the <a href="http://keystonejs.com/guide" target="_blank">Getting Started</a> guide to learn how to customise it.</p>
-			<hr>
-			{% if user and user.canAccessKeystone %}
-				<p>
-					<a href="/keystone/signin" class="btn btn-lg btn-primary">Open the Admin UI</a>
-				</p>
-			{% else %}
-				<p>We have created a default Admin user for you with the email <strong>fmquaglia@icloud.com</strong> and the password <strong>admin</strong>.</p>
-				<p>
-					<a href="/keystone/signin" style="margin-right: 10px" class="btn btn-lg btn-primary">Sign in</a>
-					to use the Admin UI.
-				</p>
-			{% endif %}
-			<hr>
-			<p>
-				Remember to <a href="https://github.com/keystonejs/keystone" target="_blank">Star KeystoneJS on GitHub</a> and
-				<a href="https://twitter.com/keystonejs" target="_blank">follow @keystonejs</a> on twitter for updates.
-			</p>
+		<div class="col-sm-12">
+			<h3>About Me</h3>
+
+			<p>My name is Fabricio Quagliariello, aka Quaglia or simply Q.</p>
+
+			<p>I am a self-taught professional. Personally, I learn much better with
+				hands-on experience than theoric academic style education.</p>
+
+			<p>I have worked in various areas, from advertising and design to custom
+				content management systems development and from project management to
+				agile techniques always with an interdisciplinary approach.</p>
+
+			<p>My focus is on web and front end development, and GUI design.
+				I have worked as an independent consultant and teacher on those
+				areas.</p>
+
+			<p>One of my main strengths is the ability to learn new concepts quickly
+				and develop related skills fast.</p>
+
+			<p>My mission is "Simplicity in Technology, Success in Business".
+				My goal is to improve the business process of my clients through the
+				intelligent use of their resources and talents.</p>
+
+			<p>My values are:</p>
+
+			<ul>
+				<li>- Creativity, the ability to use old resources in a new way</li>
+				<li>- Honesty and assertiveness</li>
+				<li>- Permanent Learning</li>
+				<li>- Simplicity, developing a deep understanding of the work to be
+					done,
+					empowering organizational and personal goals
+				</li>
+				<li>- Focus, applying fast that deep understanding in a pragmatic way
+				</li>
+			</ul>
+
+			<p>My professional approach is centered around Semantic Design,
+				Usability, and Agile Methodologies.</p>
+
+			<p>Specialties: Web Development.
+				GUI Development and Implementation.
+				Software Development with Agile.</p>
+
 		</div>
 	</div>
 {% endblock %}
